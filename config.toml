@@ -1,6 +1,6 @@
 baseURL = "https://jpcerezo.info/"
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "ESNOG | Grupo de Operadores de Red Españoles"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -40,12 +40,12 @@ theme = "timer-hugo"
         enable  = true
         bgImage = "images/slider.jpg"
         heading = "HI, MY NAME IS ESNOG & I AM A"
-        description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+        description = "WE STARTED TO MEET ON FEB. 2008, AND SINCE THEN WE GATHER WITH THE SPAIN´S NETWORK & INTERNET PROFESSIONALS TO SHARE OUR EXPERIENCES"
         btn     = true
-        btnText = "Download More"
-        btnURL  = "https://themefisher.com/"
+        btnText = "View More"
+        btnURL  = "https://esnog.net/"
         [[params.banner.flipText]]
-            title   = "COMMUNITY"
+            title   = "NETWORKING COMMUNITY"
         [[params.banner.flipText]]
             title   = "GROUP OF COLLEAGUES"
         [[params.banner.flipText]]
@@ -70,7 +70,7 @@ theme = "timer-hugo"
     [params.portfolio]
         enable  = true
         title   = "Latest Works"
-        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+        subtitle= "Her you can see the latest news and updates on activities related to ESNOG."
 
     # Feature Product Section
     [params.featureProduct]
