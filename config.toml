@@ -78,4 +78,23 @@ theme = "timer-hugo"
         title   = "SOME OF OUR FEATURES WORKS"
         subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
-    
+[params.googleApiFonts.family]
+  tagsText        = [ "html", "body", "time" ]
+  tagsHeading     = [ "h1", "h2", "h3", "h4", "h5", "h6" ]
+  tagsMono        = [ "pre", "code", "samp" ]
+  fallbackText    = "html"
+  fallbackHeading = "h1"
+  fallbackMono    = "pre"
+
+[params.googleApiFonts.family.html]
+  sans-serif = "Poppins"
+[params.googleApiFonts.family.time]
+  cursive    = "Creepster"
+[params.googleApiFonts.family.h1]
+  sans-serif = "Days One"
+[params.googleApiFonts.family.h3]
+  cursive    = "Creepster"
+[params.googleApiFonts.family.pre]
+  monospace  = "Cousine"
+[params.googleApiFonts.family.samp]
+  sans-serif = "Roboto"    
